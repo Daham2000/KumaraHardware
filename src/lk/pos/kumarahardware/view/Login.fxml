@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="393.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.pos.kumarahardware.controller.LoginController">
+   <children>
+      <Pane prefHeight="393.0" prefWidth="281.0" styleClass="leftPane" stylesheets="@../Style/LoginStyle.css">
+         <children>
+            <Label layoutX="36.0" layoutY="261.0" text="Casher Login" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="304.0" text="Kumarahardware User login" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="358.0" text="Contact : 0772934677" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="281.0" layoutY="-3.0" prefHeight="393.0" prefWidth="373.0">
+         <children>
+            <Label layoutX="42.0" layoutY="60.0" text="Login" textFill="#6f4646">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button defaultButton="true" layoutX="150.0" layoutY="263.0" mnemonicParsing="false" onAction="#SigninAction" prefHeight="28.0" prefWidth="101.0" styleClass="Signinbtn" stylesheets="@../Style/LoginStyle.css" text="Sign in" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="userName" layoutX="76.0" layoutY="140.0" prefHeight="25.0" prefWidth="248.0" promptText="User name:" />
+            <Label layoutX="89.0" layoutY="313.0" text="Have an issue in login Please contact me" />
+            <Label fx:id="Notice" layoutX="97.0" layoutY="234.0" prefHeight="17.0" prefWidth="211.0" textFill="RED" />
+            <PasswordField fx:id="passwordField" layoutX="76.0" layoutY="190.0" prefHeight="25.0" prefWidth="248.0" promptText="Password" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+.leftPane{
+    -fx-background-color: linear-gradient(to right, #1f3659, #0c408b, #2944ba, #633ce2, #a600ff);
+}
+.Signinbtn{
+    -fx-background-color: #8447c8;
+}
+.Signinbtn:hover{
+    -fx-background-color: #603591;
+}

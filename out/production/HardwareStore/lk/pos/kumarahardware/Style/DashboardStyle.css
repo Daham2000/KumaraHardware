@@ -1,0 +1,12 @@
+.SideNavigationbar{
+    -fx-background-color: #5b368f;
+}
+.SideNavibtn{
+    -fx-background-color: #5f3693;
+}
+.SideNavibtn:hover{
+    -fx-background-color: #6f47b4;
+}
+.Carts{
+    -fx-background-color: linear-gradient(#a271e5, #9167ce);
+}
